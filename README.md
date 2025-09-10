@@ -1,1 +1,1 @@
-# fremtid-gtf-2025
+# fremtind-gtf-2025
