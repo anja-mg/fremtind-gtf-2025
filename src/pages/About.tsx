@@ -4,14 +4,15 @@ export const About: React.FC = () => {
     return (
         <section style={{padding: '2rem'}}>
             <h2>Om siden ℹ️</h2>
-            <p>Denne siden er laget for å hjelpe deg å lære nye ord og trene på å beskrive ting du ser. Utforsk kategoriene til venstre og prøv oppgavene.</p>
+            <p>Denne siden er laget for at du kan utforske ulike HTML-tags. Test litt ut og skriv en liten beskrivelse om din nettbutikk</p>
 
             <h3>Hva kan du gjøre her?</h3>
+            <!--Punktliste  -->
+
             <ul>
                 <li>Se på bilder av klær og ting</li>
-                <li>Beskrive farge, form og bruk</li>
-                <li>Sammenligne to produkter</li>
-                <li>Finne likheter og forskjeller</li>
+                <li>Sette pris på produkter</li>
+                <li>Legge til nye kategorier og produkter</li>
             </ul>
 
             <h3>Eksempler på formatering</h3>
