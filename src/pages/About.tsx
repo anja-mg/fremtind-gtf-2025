@@ -7,7 +7,6 @@ export const About: React.FC = () => {
             <p>Denne siden er laget for at du kan utforske ulike HTML-tags. Test litt ut og skriv en liten beskrivelse om din nettbutikk</p>
 
             <h3>Hva kan du gjøre her?</h3>
-            <!--Punktliste  -->
 
             <ul>
                 <li>Se på bilder av klær og ting</li>
