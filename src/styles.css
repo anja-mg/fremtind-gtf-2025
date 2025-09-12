@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    background: #f8fafc;
+    color: #0f172a;
+}
+
+a {
+    color: #2563eb;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Constrain and center page sections */
+section {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Layout classes for sidebar + main content area with responsive behavior */
+.app-shell {
+    display: flex;
+    align-items: stretch;
+    min-height: calc(100vh - 60px);
+}
+
+.app-main {
+    flex: 1;
+    padding: 0;
+}
+
+/* Narrow viewport adjustments */
+@media (max-width: 640px) {
+    body {
+        text-align: center;
+    }
+
+    section {
+        text-align: center;
+        padding: 1.5rem 1rem !important;
+    }
+}
+
+@media (max-width: 800px) {
+    .app-shell {
+        flex-direction: column;
+    }
+}
+
+/* Hero (Home) */
+.hero-home {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem;
+    max-width: none;
+    width: 100%;
+}
+
+.hero-inner {
+    text-align: center;
+    max-width: 1100px;
+}
+
+.hero-image {
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 1.5rem;
+    border-radius: 12px;
+}
+
+.hero-title {
+    font-size: clamp(3rem, 7vw, 5rem);
+    margin: 0 0 0.75rem;
+    color: #c2185b;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+}
+
+.hero-sub {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #475569;
+}
+
+@media (max-width: 640px) {
+    .hero-image {
+        max-width: 420px;
+    }
+
+    .hero-title {
+    }
+
+    .hero-sub {
+        font-size: 1rem;
+    }
+}

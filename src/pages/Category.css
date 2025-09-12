@@ -1,0 +1,25 @@
+.category-page {
+    padding: 2rem;
+}
+
+.category-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    margin: 0 0 1rem;
+    letter-spacing: .06em;
+    font-weight: 800;
+    color: #c2185b;
+}
+
+.category-sub {
+    text-align: center;
+    margin: 0 0 1.25rem;
+    font-size: 1rem;
+    color: #475569;
+}
+
+.category-grid {
+    margin-top: 1.25rem;
+}
+
