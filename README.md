@@ -21,4 +21,4 @@ Hva vi skal vise i forkant
 2. Legg kategorien inn i listen med kategorier i fila categories.ts
 3. Lag deretter en ny mappe inni "produkter" med din nye kategori
 4. Finn et bilde fra Google og last det ned. Legg det i den nye kategorimappa di
-5. Legg til produktet ditt i fila products.ts. Husk å ha riktig filsti til din kategori med riktig bildenavn 
+5. Legg til produktet ditt i fila products.ts. Husk å ha riktig filsti til din kategori med riktig bildenavn
