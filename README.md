@@ -16,7 +16,7 @@ Hva vi skal vise i forkant
 4. Endre pris på "Hvit bukse" fra 100 kr til hva du synes den burde koste!
 
 
-🌸 EKSTRAOPPGAVER
+🌸 EKSTRAOPPGAVER 
 1. Tenk på en ny kategori med ting du vil selgeEksempler: blomster, møbler, biler, pynt, godteri osv... 🍭🌸🚘
 2. Legg kategorien inn i listen med kategorier i fila categories.ts
 3. Lag deretter en ny mappe inni "produkter" med din nye kategori
