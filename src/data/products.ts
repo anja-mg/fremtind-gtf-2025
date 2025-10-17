@@ -17,7 +17,7 @@ const fileMap = import.meta.glob('../bilder/**/*.{png,jpg,jpeg,webp,avif,svg}', 
 }) as Record<string, string>;
 
 
-// 🩷🩷🩷🩷🩷 Her kan du legge til flere av bilder du ønsker
+// 🩷Her kan du legge til flere av bilder du ønsker. Kopier f.eks. en av linjene nedenfor og lim den inn rett over 🩷hjertet
 const bildeliste: Omit<Product, 'image'>[] = [
     {id: 'hvit-bukse', category: 'bukser', title: 'Hvit bukse', subtitle: '100 kr', file: 'bukser/bukse-1.webp'},
     
@@ -28,6 +28,8 @@ const bildeliste: Omit<Product, 'image'>[] = [
     {id: 'addidas-sko', category: 'sko', title: 'Addidas originals', subtitle: '300 kr', file: 'sko/sko-1.webp'},
 
     {id: 'blomst', category: 'blomster', title: 'Prestekrage', subtitle: '100 kr', file: 'blomster/Oxeye Daisy.jpg'},
+
+// 🩷
 ];
 
 

@@ -8,7 +8,9 @@ export const Home: React.FC = () => {
     <section className="hero-home">
       <div className="hero-inner">
         <img className="hero-image" src={heroImg} alt="Girl Tech Fest 2025 forside" />
+          {/*🩷 Her kan du endre navn på nettbutikken din. Dette kommer til å komme opp på forsiden! */}
         <h1 className="hero-title">Lag din egen nettside med Fremtind 🩷</h1>
+          {/*🩷*/}
       </div>
     </section>
   );
