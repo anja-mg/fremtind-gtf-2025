@@ -21,13 +21,13 @@ const fileMap = import.meta.glob('../bilder/**/*.{png,jpg,jpeg,webp,avif,svg}', 
 
 const bildeliste: Omit<Product, 'image'>[] = [
 
-    {id: 'hvit-bukse', category: 'bukser', title: 'Hvit bukse', subtitle: '100 kr', file: 'bukser/bukse-1.webp'},
+    {id: 'hvit-bukse', category: 'bukser', title: 'Hvit bukse', subtitle: '100 kr', file: 'bukser/bukse-1.jpg'},
     
-    {id: 'bla-bukse', category: 'bukser', title: 'Blå bukse', subtitle: '200 kr', file: 'bukser/bukse-2.webp'},
+    {id: 'bla-bukse', category: 'bukser', title: 'Blå bukse', subtitle: '200 kr', file: 'bukser/bukse-2.jpg'},
 
-    {id: 'gra-veske', category: 'vesker', title: 'Grå veske', subtitle: '550 kr', file: 'vesker/veske-1.webp'},
+    {id: 'gra-veske', category: 'vesker', title: 'Grå veske', subtitle: '550 kr', file: 'vesker/veske-1.jpg'},
 
-    {id: 'addidas-sko', category: 'sko', title: 'Addidas originals', subtitle: '300 kr', file: 'sko/sko-1.webp'},
+    {id: 'addidas-sko', category: 'sko', title: 'Addidas originals', subtitle: '300 kr', file: 'sko/sko-1.jpg'},
 
     {id: 'blomst', category: 'blomster', title: 'Prestekrage', subtitle: '100 kr', file: 'blomster/Oxeye Daisy.jpg'},
 
