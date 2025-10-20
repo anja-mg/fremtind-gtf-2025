@@ -18,7 +18,9 @@ const fileMap = import.meta.glob('../bilder/**/*.{png,jpg,jpeg,webp,avif,svg}', 
 
 
 // 🩷Her kan du legge til flere av bilder du ønsker. Kopier f.eks. en av linjene nedenfor og lim den inn rett over 🩷hjertet
+
 const bildeliste: Omit<Product, 'image'>[] = [
+
     {id: 'hvit-bukse', category: 'bukser', title: 'Hvit bukse', subtitle: '100 kr', file: 'bukser/bukse-1.webp'},
     
     {id: 'bla-bukse', category: 'bukser', title: 'Blå bukse', subtitle: '200 kr', file: 'bukser/bukse-2.webp'},

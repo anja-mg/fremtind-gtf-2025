@@ -5,7 +5,6 @@
     padding: 0.75rem 1.25rem;
     /* 🩷 endre bakgrunnsfarge på verktøyslinjen/øverste linje. Test ut ulike farger her! Om du bruker fargene fra nettsiden, så husk "#" foran */
     background: deeppink;
-    /* 🩷 */
     color: #fff;
 }
 
@@ -35,7 +34,6 @@
 }
 
 .nav-links a:hover {
-    /* 🩷 Her kan du endre fargen som kommer når du holder musa over teksten på verktøylinja */
     color: white;
 }
 
