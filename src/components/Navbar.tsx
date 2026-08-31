@@ -5,7 +5,7 @@ import './Navbar.css';
 export const Navbar: React.FC = () => {
   return (
     <nav className="navbar">
-      <div className="nav-brand">FREMTIND x GTF 2025</div>
+      <div className="nav-brand">FREMTIND x GTF</div>
       <ul className="nav-links">
         <li><NavLink to="/" end>Hjem</NavLink></li>
         <li><NavLink to="/about">Om siden</NavLink></li>
