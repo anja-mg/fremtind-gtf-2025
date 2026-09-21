@@ -28,6 +28,8 @@ const bildeliste: Omit<Product, 'image'>[] = [
     {id: 'addidas-sko', category: 'sko', title: 'Addidas originals', subtitle: '300 kr', file: 'sko/sko-1.webp'},
 
     {id: 'blomst', category: 'blomster', title: 'Prestekrage', subtitle: '100 kr', file: 'blomster/Oxeye Daisy.jpg'},
+
+    {id: 'hest', category: 'hester', title: 'Hest', subtitle: '1000 kr', file: 'hester/svart-hest.jpeg'},
 ];
 
 

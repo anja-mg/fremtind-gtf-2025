@@ -22,5 +22,10 @@ export const categories: CategoryDef[] = [
   {
     name: 'blomster',
     label: 'Blomster',
+  },
+  {
+    name: 'hester',
+    label: 'Hester',
   }
+
 ];
