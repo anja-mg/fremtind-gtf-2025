@@ -29,7 +29,7 @@ const bildeliste: Omit<Product, 'image'>[] = [
 
     {id: 'blomst', category: 'blomster', title: 'Prestekrage', subtitle: '100 kr', file: 'blomster/Oxeye Daisy.jpg'},
 
-    {id: 'hest', category: 'hester', title: 'Hest', subtitle: '1000 kr', file: 'hester/svart-hest.jpeg'},
+    {id: 'hest', category: 'hester', title: 'Hest', subtitle: '1000 kr', file: 'hester/hest1.jpeg'},
 ];
 
 
