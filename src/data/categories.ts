@@ -24,15 +24,8 @@ export const categories: CategoryDef[] = [
     label: 'Blomster',
   },
   {
-    name: 'hunder',
-    label: 'Hunder',
-  },
-  {
-    name: 'katter',
-    label: 'Katter',
-  },
-  {
-    name: 'godteri',
-    label: 'Godteri',
+    name: 'hester',
+    label: 'Hester',
   }
+
 ];
