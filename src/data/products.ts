@@ -17,15 +17,19 @@ const fileMap = import.meta.glob('../bilder/**/*.{png,jpg,jpeg,webp,avif,svg}', 
 }) as Record<string, string>;
 
 
-// 🩷🩷🩷🩷🩷 Her kan du legge til flere av bilder du ønsker
+// 🩷Her kan du legge til flere av bilder du ønsker. Kopier f.eks. en av linjene nedenfor og lim den inn rett over 🩷hjertet
+
 const bildeliste: Omit<Product, 'image'>[] = [
-    {id: 'hvit-bukse', category: 'bukser', title: 'Hvit bukse', subtitle: '100 kr', file: 'bukser/bukse-1.webp'},
-    {id: 'bla-bukse', category: 'bukser', title: 'Blå bukse', subtitle: '200 kr', file: 'bukser/bukse-2.webp'},
 
+    {id: 'hvit-bukse', category: 'bukser', title: 'Hvit bukse', subtitle: '100 kr', file: 'bukse-bilder/bukse-1.jpg'},
+    
+    {id: 'bla-bukse', category: 'bukser', title: 'Blå bukse', subtitle: '200 kr', file: 'bukse-bilder/bukse-2.jpg'},
 
-    {id: 'gra-veske', category: 'vesker', title: 'Grå veske', subtitle: '550 kr', file: 'vesker/veske-1.webp'},
+    {id: 'gra-veske', category: 'vesker', title: 'Grå veske', subtitle: '550 kr', file: 'veske-bilder/veske-1.jpg'},
 
-    {id: 'addidas-sko', category: 'sko', title: 'Addidas originals', subtitle: '300 kr', file: 'sko/sko-1.webp'},
+    {id: 'addidas-sko', category: 'sko', title: 'Addidas originals', subtitle: '300 kr', file: 'sko-bilder/sko-1.jpg'},
+
+    {id: 'blomst', category: 'blomster', title: 'Prestekrage', subtitle: '100 kr', file: 'blomst-bilder/Oxeye Daisy.jpg'},
 
     {id: 'blomst', category: 'blomster', title: 'Prestekrage', subtitle: '100 kr', file: 'blomster/Oxeye Daisy.jpg'},
 

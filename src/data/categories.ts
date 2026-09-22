@@ -4,7 +4,7 @@ export interface CategoryDef {
 }
 
 // 🩷🩷🩷🩷
-// Her kan du legge til flere kategorier du ønsker!
+// Her kan du legge til flere kategorier om du ønsker!
 
 export const categories: CategoryDef[] = [
   {

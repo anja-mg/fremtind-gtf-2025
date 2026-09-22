@@ -3,8 +3,7 @@
     align-items: center;
     gap: 2rem;
     padding: 0.75rem 1.25rem;
-    /* 🩷 endre bakgrunnsfarge på verktøyslinjen/øverste linje. Test ut ulike farger */
-    background: deeppink;
+    background: var(--main-color);
     color: #fff;
 }
 
@@ -34,7 +33,6 @@
 }
 
 .nav-links a:hover {
-    /* 🩷 Her kan du endre fargen som kommer når du holder musa over teksten på verktøylinja */
     color: white;
 }
 
